@@ -1,4 +1,4 @@
-from networksecurity.exception import NetworkSystemException
+from networksecurity.exception import NetworkSecurityException
 #configuration of Data Ingestion Config
 
 from networksecurity.entity import DataIngestionConfig,DataIngestionArtifact
@@ -20,7 +20,7 @@ class DataIngestion:
         try:
             self.data_ingestion_config = data_ingestion_config
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
         
     def export_collection_as_dataframe(self):
 
@@ -37,7 +37,7 @@ class DataIngestion:
             df.replace({"na":np.nan},inplace=True)
             return df
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
         
     def export_data_into_feature_store(self,dataframe:pd.DataFrame):
         try:
@@ -48,7 +48,7 @@ class DataIngestion:
             dataframe.to_csv(feature_store_file_path,index=False,header=True)
             return dataframe
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
 
         
     def split_data_as_train_test_split(self,dataframe:pd.DataFrame):
@@ -73,7 +73,7 @@ class DataIngestion:
 
 
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
 
     
         
@@ -91,5 +91,5 @@ class DataIngestion:
 
         
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
 

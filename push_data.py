@@ -16,7 +16,7 @@ ca = certifi.where()   #certificate authorities trusted ssl,tls connections
 import pandas as pd
 import numpy as np
 import pymongo
-from networksecurity import NetworkSystemException
+from networksecurity import NetworkSecurityException
 from networksecurity.logging.logger import logging
 
 class NetworkDataExtract():
@@ -24,7 +24,7 @@ class NetworkDataExtract():
         try:
             pass
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
         
     def csv_to_json(self,file_path):
         try:
@@ -33,7 +33,7 @@ class NetworkDataExtract():
             records = list(json.loads(data.T.to_json()).values()) #converts csv to list of json [{a:1,b:2,c:3},{a:8,b:9,c:0},....]
             return records
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
         
     def insert_data_mongodb(self,records,database,collection):
         try:
@@ -48,7 +48,7 @@ class NetworkDataExtract():
             self.collection.insert_many(self.records)
             return (len(self.records))
         except Exception as e:
-            raise NetworkSystemException(e,sys)
+            raise NetworkSecurityException(e,sys)
         
 
 if __name__ == '__main__':

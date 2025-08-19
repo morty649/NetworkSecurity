@@ -1,1 +1,1 @@
-from .exception import NetworkSystemException
+from .exception import NetworkSecurityException

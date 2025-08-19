@@ -1,6 +1,6 @@
 import sys
 from networksecurity.logging import logger
-class NetworkSystemException(Exception):
+class NetworkSecurityException(Exception):
     def __init__(self,error_message,error_details:sys):
         self.error_message = error_message
         _,_,exc_tb = error_details.exc_info()
@@ -17,4 +17,4 @@ if __name__=='__main__':
         a = 1/0
         print("This line won't be printed")
     except Exception as e:
-        raise NetworkSystemException(e,sys)
+        raise NetworkSecurityException(e,sys)
