@@ -1,7 +1,9 @@
 from .exception import NetworkSecurityException
-from .components import DataIngestion,DataValidation
+from .components import DataIngestion,DataValidation,DataTransformation
 from .entity import( 
     DataIngestionConfig,
     DataIngestionArtifact,
     TrainingPipelineConfig,
-    DataValidationConfig)
+    DataValidationConfig,
+    DataTransformationConfig
+    )
