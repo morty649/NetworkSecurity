@@ -6,4 +6,9 @@ pymongo[srv] == 3.6
 certifi
 scikit-learn
 dill
+mlflow
+pyaml
+fastapi
+uvicorn
+python-multipart
 #-e .

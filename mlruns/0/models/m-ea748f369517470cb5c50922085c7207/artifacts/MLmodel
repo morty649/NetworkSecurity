@@ -1,0 +1,22 @@
+artifact_path: file:///home/morty/Desktop/NetworkSecurity/mlruns/0/models/m-ea748f369517470cb5c50922085c7207/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.1
+model_id: m-ea748f369517470cb5c50922085c7207
+model_size_bytes: 6858209
+model_uuid: m-ea748f369517470cb5c50922085c7207
+prompts: null
+run_id: 4fb8f2f671014256b12ab3256fa8a4eb
+utc_time_created: '2025-08-22 16:15:56.856830'

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/morty/Desktop/NetworkSecurity/mlruns/0/7502e1d5aba54ead84d8e6bbdaa3a4cb/artifacts
+end_time: 1755878634612
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7502e1d5aba54ead84d8e6bbdaa3a4cb
+run_name: merciful-finch-316
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755878633107
+status: 3
+tags: []
+user_id: morty

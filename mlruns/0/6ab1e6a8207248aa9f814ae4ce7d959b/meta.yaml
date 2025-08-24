@@ -1,0 +1,14 @@
+artifact_uri: file:///home/morty/Desktop/NetworkSecurity/mlruns/0/6ab1e6a8207248aa9f814ae4ce7d959b/artifacts
+end_time: 1755879360071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ab1e6a8207248aa9f814ae4ce7d959b
+run_name: adorable-foal-967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755879358581
+status: 3
+tags: []
+user_id: morty

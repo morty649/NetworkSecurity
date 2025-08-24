@@ -1,0 +1,14 @@
+artifact_uri: file:///home/morty/Desktop/NetworkSecurity/mlruns/0/72356af5f9aa4590a3cf3e22a4ba9461/artifacts
+end_time: 1755878633087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72356af5f9aa4590a3cf3e22a4ba9461
+run_name: sassy-ape-107
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755878631293
+status: 3
+tags: []
+user_id: morty

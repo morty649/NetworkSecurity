@@ -1,0 +1,10 @@
+artifact_location: file:///home/morty/Desktop/NetworkSecurity/mlruns/0/models/m-01b70147c58c4e4dbd7d3add36d8d4f9/artifacts
+creation_timestamp: 1755879358598
+experiment_id: '0'
+last_updated_timestamp: 1755879360069
+model_id: m-01b70147c58c4e4dbd7d3add36d8d4f9
+model_type: null
+name: model
+source_run_id: 6ab1e6a8207248aa9f814ae4ce7d959b
+status: 2
+status_message: null

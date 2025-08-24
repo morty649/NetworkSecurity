@@ -1,0 +1,14 @@
+artifact_uri: file:///home/morty/Desktop/NetworkSecurity/mlruns/0/4fb8f2f671014256b12ab3256fa8a4eb/artifacts
+end_time: 1755879358560
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4fb8f2f671014256b12ab3256fa8a4eb
+run_name: serious-donkey-140
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755879356835
+status: 3
+tags: []
+user_id: morty
